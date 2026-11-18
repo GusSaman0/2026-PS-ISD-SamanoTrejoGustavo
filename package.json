@@ -1,5 +1,24 @@
 {
+  "name": "2026-ps-isd-samanotrejogustavo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo#readme",
+  "bugs": {
+    "url": "https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "net": "^1.0.2"
-  }
+  },
+  "devDependencies": {}
 }
