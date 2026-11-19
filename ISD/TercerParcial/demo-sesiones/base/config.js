@@ -14,17 +14,11 @@ module.exports = {
   rolling: false,
 
   // true: el JavaScript de la página NO puede leer la cookie (document.cookie no la muestra).
-  httpOnly: true,
+  httpOnly: false,
 
   // 'lax': la cookie no viaja en peticiones POST que vienen de otros sitios. 'strict' es más estricto.
   sameSite: 'lax',
 
   // true: al iniciar sesión el servidor cambia el id de la sesión (protege contra la fijación de sesión).
   regenerarAlEntrar: true,
-
-  //cuantos segundos va a durara el token
-  jwtExpiraSeg : 5*60,
-
-  //true: al cerrar sesion el servidor anota el token en la lista negra y ya no lo acepta. false: el servidor no guarda nada, el token sigue sirviendo
-  jwtRevocar: true
 };

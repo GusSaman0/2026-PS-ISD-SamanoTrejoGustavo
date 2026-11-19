@@ -1,30 +1,18 @@
 {
-  "name": "base",
+  "name": "demo-sesiones",
   "version": "1.0.0",
-  "description": "Demo guiada de Programacion Web: sesiones con cookie",
-  "homepage": "https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo#readme",
-  "bugs": {
-    "url": "https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GusSaman0/2026-PS-ISD-SamanoTrejoGustavo.git"
-  },
-  "license": "ISC",
-  "author": "Samano Trejo Gustavo",
-  "type": "commonjs",
-  "main": "app.js",
+  "description": "Demo guiada de Programación Web: cómo funciona una sesión con cookie (express-session), expiración, opciones de la cookie, secuestro de sesión y 401 contra 403",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "probar": "node pruebas/probar.js"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.3",
-    "dotenv": "^18.0.10",
-    "express": "^5.3.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
     "express-mysql-session": "^3.0.3",
-    "express-session": "^1.19.0",
-    "jsonwebtoken": "^9.0.3",
+    "express-session": "^1.18.1",
     "mysql2": "^3.24.6"
   }
 }
